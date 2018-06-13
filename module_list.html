@@ -1,0 +1,48 @@
+<div class="al">
+	<?php if(!empty($data['list']['title'])): ?>
+		<div class="al-title"><h1><?=$data['list']['title']?></h1></div>
+	<?php endif; ?>
+	<?php if(empty($data['list']['data'])): ?>
+		<div class="al-message">
+崇尚出众的时尚感和设计感，产品设计来自于国际著名花艺大师和设计大师。
+
+是极具知名度的精品花店连锁和花艺培训机构。一直秉承创新和优雅并进的设计理念，是国内第一家将鲜花放入花盒的品牌
+
+麻花儿花店优势
+ADVANTAGES
+花里，国内领先的精品花店加盟
+著名的精品花店
+创立于上海的花里是京沪广和港澳台一线的精品花店品牌
+知名的艺人投资
+国内唯一一家在香港开设门店，并由知名艺人投资的花店连锁
+保姆式开店支持
+提供行业内最好的开店培训，并且上门五天扶持开业
+出众的产品设计
+面向中高端的客户群体，由国际名师持续设计研发新的花艺产品
+行业领先供应链
+花里整合了国内外鲜花供应，为加盟商提供优质和优价的鲜花产品
+电商和网络营销
+超强的网络营销能力，为门店带来源源不断的网络订单
+
+
+在互联网、移动互联网和新零售纷至沓来的新时代，
+麻花儿花店和宝龙集团旗下的宝龙创想实验室开启了鲜花零售行业新模式的探索。
+人脸识别付费，场景式消费，空间和消费等创新的尝试，
+是麻花儿花店与商业地产巨头宝龙集团的合作探索。<p><a href="./">点击返回首页</a></p></div>
+	<?php else: ?>
+		<?php foreach($data['list']['data'] as $v): ?>
+			<div class="al-each">
+				<div class="al-info"><a href="show.php?id=<?=$v['id']?>"><?=$v['title']?></a></div>
+				<div class="al-desc"><?=$v['description']?></div>
+				<?php if($v['thumb']): ?>
+					<div class="al-img"><a href="show.php?id=<?=$v['id']?>"><img src="./upload/<?=$v['thumb']?>" alt="点击阅读文章"></a></div>
+				<?php endif; ?>
+				<div class="al-more">
+					<span>作者：<?=$v['author']?:'匿名'?> | 发表于：<?=$v['time']?></span>
+					<a href="show.php?id=<?=$v['id']?>">看原文，请点击</a>
+				</div>
+			</div>
+		<?php endforeach; ?>
+		<div class="pagelist"><?=$data['list']['page_html']?></div>	
+	<?php endif; ?>
+</div>
