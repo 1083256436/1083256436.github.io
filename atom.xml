@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><style>
-—_body{
+.body{
 margin:100%;
 font-color:red;
 font-weight:border;
 font-size:30px;
+text-align:center;
 
 background-color:aaa;
 
@@ -19,8 +20,8 @@ background-color:aaa;
 <!-- TemplateEndEditable -->
 </head>
 
-<body>
-书瑕忘了微博网址。
+<body class="body">
+<strong>Aheir书瑕忘了微博网址。</strong>
 </body>
 </html>
 
