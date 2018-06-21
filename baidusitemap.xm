@@ -1112,7 +1112,7 @@
 
     
   <url>
-    <loc>//Aheir.me/2016/07/24/diary-2016-0717-0723/</loc>
+    <loc>//little.me/2016/07/24/diary-2016-0717-0723/</loc>
     <lastmod>2016-09-30T14:42:26.000Z</lastmod>
     <data>
         <display>
