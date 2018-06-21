@@ -181,7 +181,7 @@ body,button,input,select,textarea{
 		.mid-col{position:absolute;
 		right:0;
 		min-height:100%;
-		background:#eaeaea;
+		background:#f5c6dc;
 		left:300px;width:auto}
 		.mid-col.show{background:none;opacity:.9}
 		.mid-col.show .article{background:hsla(0,0%,100%,.3)}
@@ -189,22 +189,22 @@ body,button,input,select,textarea{
 		#mobile-nav .overlay{
 			height:110px;
 			position:absolute;
-		width:100%;background:#4d4d4d}
+		width:100%;background:#f9a7a9}
 		#mobile-nav .overlay.fixed{position:fixed;
 		height:42px;z-index:99}#mobile-nav #header{padding:10px 0 0}
 		#mobile-nav #header .profilepic{display:block;position:relative;z-index:100}
 		#mobile-nav #header .header-menu{height:auto;margin:10px}
 		#mobile-nav #header .header-menu ul{text-align:center;cursor:default}
 		#mobile-nav #header .header-menu li{display:inline-block;margin:3px}
-		.left-col{background:#fff;width:300px;position:fixed;
+		.left-col{background:#7bf583;width:300px;position:fixed;
 		opacity:1;-webkit-transition:all .2s ease-in;transition:all .2s ease-in;height:100%;z-index:999}
-		.left-col .overlay{width:100%;height:180px;background-color:#000;position:absolute;opacity:.7}
+		.left-col .overlay{width:100%;height:180px;background-color:#dd6572;position:absolute;opacity:.7}
 		.left-col .intrude-less{width:76%;text-align:center;margin:112px auto 0}
 		.left-col #header{width:100%;height:300px;position:relative;border-bottom:1px solid color-border}
-		.left-col #header a{color:#696969}
-		.left-col #header a:hover{color:#b0a0aa}
+		.left-col #header a{color:#b87bdb}
+		.left-col #header a:hover{color:#b87bdb}
 		.left-col #header .header-subtitle{
-			text-align:center;color:#999;
+			text-align:center;color:#ea4015;
 			font-size:14px;line-height:25px;
 			overflow:hidden;text-overflow:ellipsis;
 			display:-webkit-box;-webkit-line-clamp:2;
@@ -223,7 +223,7 @@ body,button,input,select,textarea{
 			-webkit-box-align:center}
 			.left-col #header .header-menu li{cursor:default}
 			.left-col #header .header-menu li a{font-size:14px;min-width:300px}
-			.left-col #header .header-smart-menu{font-size:14px;margin-bottom:20px;color:#00C}
+			.left-col #header .header-smart-menu{font-size:14px;margin-bottom:20px;color:#e89abe}
 			.left-col #header .header-smart-menu a:after{content:'/'}
 			.left-col #header .header-smart-menu a:last-child:after{content:''}
 			.left-col #header .profilepic{
