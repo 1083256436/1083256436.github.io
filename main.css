@@ -170,7 +170,7 @@ body,button,input,select,textarea{
 	font-size:16px;
 	font-size:1rem;
 	line-height:1.75}
-	body{overflow-y:hidden;background:#eaeaea}
+	body{overflow-y:hidden;background:#f7c0c2}
 	#container,body,html{
 		height:100%;
 		overflow-x:hidden;overflow-y:auto}
